@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 body {
   margin: 0;
@@ -18,29 +19,41 @@ body {
     background-color: #f5f5f5;
 
     h1 {
-      font-family: "Felicity", serif;
       font-size: 7rem;
       font-weight: bold;
       color: #392423;
+      font-style: italic;
+      font-family: "EB Garamond", serif;
     }
 
     p {
-      font-family: "Felicity", serif;
+      font-family: "EB Garamond", serif;
       font-size: 1.5rem;
-      margin-top: 1rem;
+      margin-top: -30px;
       color: #393838;
+
     }
+
+
+  }
+
+  .linea-decorativa {
+    width: 100%; /* Ajusta el ancho de la línea */
+    height: 4px; /* Grosor de la línea */
+    background-color: #e27d9c; /* Color que combine con el diseño */
+    margin: 0 auto; /* Centrar la línea */
+    border-radius: 2px; /* Bordes redondeados */
   }
 
   section {
-    padding: 100px 20px;
+   /*  padding: 30px 20px;*/
 
     &.project {
-      background-color: #e3e3e3;
+      background-color: #fcf1ed;
     }
 
     &.agency {
-      background-color: #d1d1d1;
+      background-color: #f6f1ef;
     }
   }
 
@@ -54,23 +67,234 @@ body {
 
 .navbar {
   position: fixed;
-  top: 0;
-  width: 100%;
-  background: #fcf1ed;
-  padding: 10px 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 10px; /* Agrega un margen desde la parte superior */
+  left: 10px; /* Agrega espacio desde el lado izquierdo */
+  right: 10px; /* Agrega espacio desde el lado derecho */
+  background: #fcf1ed; /* Color de fondo */
+  padding: 15px 20px; /* Espaciado interno */
+  box-shadow: 0 4px 10px rgba(57, 36, 35, 0.5); /* Sombra más visible */
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px; /* Espacio entre los enlaces */
+  font-family: "EB Garamond", serif; /* Fuente */
+  font-weight: 600; /* Grosor del texto */
+  border-radius: 17px; /* Bordes redondeados para un rectángulo más suave */
+  border: 2px solid #e0d5d0; /* Borde visible para destacar */
 }
 
 .navbar a {
-  text-decoration: none;
-  color: #392423;
-  font-size: 1rem;
-  transition: color 0.3s;
+  text-decoration: none; /* Elimina el subrayado */
+  color: #392423; /* Color del texto */
+  font-size: 1rem; /* Tamaño del texto */
+  transition: color 0.3s; /* Transición suave para el hover */
 }
 
 .navbar a:hover {
-  color: #007BFF;
+  color: #007BFF; /* Color azul al pasar el ratón */
 }
+
+
+.navbar .brand {
+  font-size: 1rem; /* Tamaño del texto */
+  color: #392423; /* Color del texto */
+  font-style: italic;
+  font-family: "EB Garamond", serif;
+  font-weight: 700;
+
+  /* Mueve el texto más a la izquierda */
+  position: relative;
+  left: -480px; /* Ajusta el valor según lo lejos que quieras moverlo */
+
+}
+
+/* Contenedor principal */
+.sobre-mi-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+  background-color: #fbeae6; /* Fondo suave */
+  border-radius: 15px; /* Bordes redondeados */
+  position: relative;
+}
+
+/* Ilustración */
+.sobre-mi-ilustracion img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Texto */
+.sobre-mi-texto {
+  position: relative;
+  margin-left: 50px;
+}
+
+.sobre-mi-texto h2 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin-bottom: 1px;
+  font-family: "EB Garamond", serif;
+  margin-right:100px; /*borde derecho */
+
+
+
+}
+
+
+
+.sobre-mi-texto h3 {
+  font-size: 1.5rem;
+  color: #e27d9c; /* Un color que destaque */
+  margin-bottom: 80px;
+  margin-top: 5px;
+  font-family: "Felicity", serif;
+}
+
+.sobre-mi-texto p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Felicity", serif;
+  text-align: justify;
+  max-width: 300px;
+  margin-top: -5px;
+}
+
+
+
+/* Botones */
+.botones-interes {
+  display: flex;
+  gap: 10px;
+}
+
+.boton-interes {
+  background-color: #e27d9c;
+  border: 2px solid #e27d9c; /* Borde que combine con el diseño */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold; /* Para un texto más llamativo */
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.boton-interes:hover {
+  background-color: #fff;
+  color: #e27d9c;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 0 #c94e71, 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Contenedor principal 2 */
+.sobre-mi-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+  background-color: #fbeae6; /* Fondo suave */
+  border-radius: 15px; /* Bordes redondeados */
+
+}
+
+.sobre-mi-ilustracion2 img {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  left: 400px; /* Mueve la imagen 50px hacia la derecha */
+}
+
+
+/* Texto */
+.sobre-mi-texto2 {
+  max-width: 500px;
+  margin-left: -250px;
+  position: relative;
+  right: 220px; /* Mueve la imagen 50px hacia la derecha */
+}
+
+.sobre-mi-texto2 h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Qeskile Voyage Thin", serif;
+}
+
+.sobre-mi-texto2 h3 {
+  font-size: 1.5rem;
+  color: #e27d9c; /* Un color que destaque */
+  margin-bottom: 20px;
+  font-family: "Felicity", serif;
+}
+
+.sobre-mi-texto2 p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify; /* Alinea el texto como en un periódico */
+  max-width: 400px; /* Define un ancho máximo */
+  margin-top: -10px;
+}
+
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+ul {
+
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #393838;
+  padding: 10px 20px;
+  font-weight: bold;
+
+}
+
+li {
+  margin-bottom: 20px; /* Añade separación entre los elementos */
+  text-align: justify; /* Justifica el texto */
+  max-width: 350px; /* Define un ancho máximo */
+
+}
+
+/* Botones */
+.botones-interes2 {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.boton-interes2 {
+  background-color: #fff;
+  border: 2px solid #e27d9c; /* Borde que combine con el diseño */
+  color: #e27d9c;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold; /* Para un texto más llamativo */
+  transition: all 0.3s ease;
+}
+
+.boton-interes2:hover {
+  background-color: #e27d9c;
+  color: #fff;
+}
+
+
+
+
+

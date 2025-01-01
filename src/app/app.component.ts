@@ -1,12 +1,12 @@
 import { Component, OnInit, Inject, PLATFORM_ID } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { isPlatformBrowser } from '@angular/common';
+import {isPlatformBrowser, NgOptimizedImage} from '@angular/common';
 import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NgOptimizedImage],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'] // Corregí el nombre de la propiedad de `styleUrl` a `styleUrls`
 })
