@@ -78,7 +78,7 @@ body {
   gap: 50px; /* Espacio entre los enlaces */
   font-family: "EB Garamond", serif; /* Fuente */
   font-weight: 600; /* Grosor del texto */
-  border-radius: 17px; /* Bordes redondeados para un rectángulo más suave */
+  border-radius: 10px; /* Bordes redondeados para un rectángulo más suave */
   border: 2px solid #e0d5d0; /* Borde visible para destacar */
 }
 
@@ -87,6 +87,7 @@ body {
   color: #392423; /* Color del texto */
   font-size: 1rem; /* Tamaño del texto */
   transition: color 0.3s; /* Transición suave para el hover */
+  font-family: "EB Garamond", serif;
 }
 
 .navbar a:hover {
