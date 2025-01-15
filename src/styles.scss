@@ -298,4 +298,59 @@ li {
 
 
 
+/* Contenedor principal 3 */
+.sobre-mi-container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 50px;
+  background-color: #f6f4ed; /* Fondo suave */
+  border-radius: 15px; /* Bordes redondeados */
+  position: relative;
+}
 
+.sobre-mi-ilustracion3 img {
+  position: relative; /* Para que puedas ajustar con left */
+  left: -170px; /* Ajusta este valor para mover más a la izquierda */
+  max-width: 100%; /* Asegúrate de que no se deforme la imagen */
+
+}
+
+/* Texto */
+.sobre-mi-texto3 {
+  position: relative;
+  margin-right: 110px;
+}
+
+.sobre-mi-texto3 h2 {
+  font-size: 3.5rem;
+  font-weight: normal;
+  margin-bottom: 1px;
+  font-family: "EB Garamond", serif;
+  margin-right:100px; /*borde derecho */
+
+
+
+}
+
+
+
+.sobre-mi-texto3 h3 {
+  font-size: 1.5rem;
+  color: #e27d9c; /* Un color que destaque */
+  margin-bottom: 80px;
+  margin-top: 5px;
+  font-family: "Felicity", serif;
+}
+
+.sobre-mi-texto3 p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Felicity", serif;
+  text-align: justify;
+  max-width: 300px;
+  margin-top: -5px;
+}
