@@ -80,7 +80,7 @@ body {
   font-weight: 600; /* Grosor del texto */
   border-radius: 10px; /* Bordes redondeados para un rectángulo más suave */
   border: 2px solid #e0d5d0; /* Borde visible para destacar */
-  z-index: 1000;
+
 }
 
 .navbar a {
@@ -365,4 +365,24 @@ li {
   text-align: justify;
   max-width: 300px;
   margin-top: -5px;
+}
+
+.custom-shape-divider-top-1736976329 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1736976329 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 67px;
+}
+
+.custom-shape-divider-top-1736976329 .shape-fill {
+  fill: #FFFFFF;
 }
