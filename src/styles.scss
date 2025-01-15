@@ -80,6 +80,7 @@ body {
   font-weight: 600; /* Grosor del texto */
   border-radius: 10px; /* Bordes redondeados para un rectángulo más suave */
   border: 2px solid #e0d5d0; /* Borde visible para destacar */
+  z-index: 1000;
 }
 
 .navbar a {
@@ -296,7 +297,17 @@ li {
 }
 
 
+.separador {
+  border: none;
+  border-top: 2px solid #392423; /* Color y grosor de la línea */
+  margin: 0; /* Quita márgenes si no los deseas */
+}
 
+.separador1 {
+  border: none;
+  border-top: 2px solid #392423; /* Color y grosor de la línea */
+  margin: 0; /* Quita márgenes si no los deseas */
+}
 
 /* Contenedor principal 3 */
 .sobre-mi-container3 {
@@ -309,6 +320,7 @@ li {
   border-radius: 15px; /* Bordes redondeados */
   position: relative;
 }
+
 
 .sobre-mi-ilustracion3 img {
   position: relative; /* Para que puedas ajustar con left */
