@@ -386,3 +386,35 @@ li {
 .custom-shape-divider-top-1736976329 .shape-fill {
   fill: #FFFFFF;
 }
+
+
+
+.custom-shape-divider-top-1737224784 {
+  position: absolute;
+  top: -115px; /* Ajusta la posición para que el divisor esté justo encima del footer */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1; /* Asegúrate de que esté detrás del contenido del footer */
+}
+
+.custom-shape-divider-top-1737224784 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 115px;
+}
+
+.custom-shape-divider-top-1737224784 .shape-fill {
+  fill: #FFFFFF; /* Cambia este color según el fondo de tu página */
+}
+
+footer {
+  position: relative;
+  background-color: #000000; /* Color de fondo del footer */
+  color: #FFFFFF; /* Color del texto del footer */
+  text-align: center;
+  padding: 20px;
+  z-index: 2;
+}
